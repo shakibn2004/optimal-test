@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Optimal Realty Group — Home (scroll-tour hero)</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&amp;family=Jost:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{font-variant-numeric:lining-nums;margin:0}em{font-style:normal}body{margin:0;background:#111111}
+*{box-sizing:border-box}
+a{color:#C9A86A;text-decoration:none}a:hover{color:#E2CA98}
+:focus-visible{outline:2px solid #C9A86A;outline-offset:3px}
+::selection{background:#C9A86A;color:#111111}
+input,select,textarea,button{font-family:inherit}
+input::placeholder,textarea::placeholder{color:#7A756C}
+.nl{display:flex}.nb{display:none}
+@media (max-width:1100px){.nl{display:none!important}.nb{display:inline-flex!important}}
+.ul{background-image:linear-gradient(#C9A86A,#C9A86A);background-size:0 1px;background-repeat:no-repeat;background-position:0 100%;transition:background-size .35s ease,color .2s}
+.ul:hover{background-size:100% 1px}
+.btn-g{transition:background .25s ease}.btn-g:hover{background:#DCC28E!important;color:#111111!important}
+.btn-o{transition:background .25s ease,color .25s ease}.btn-o:hover{background:#C9A86A!important;color:#111111!important}
+.zh .zm{transition:transform 1.4s cubic-bezier(.2,.7,.2,1)}.zh:hover .zm{transform:scale(1.045)}
+.kb{animation:kb 24s ease-out both}
+@keyframes kb{from{transform:scale(1.08)}to{transform:scale(1)}}
+.fu{animation:fu 1.1s cubic-bezier(.2,.7,.2,1) both}.d1{animation-delay:.15s}.d2{animation-delay:.3s}.d3{animation-delay:.45s}
+@keyframes fu{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.xf{transition:opacity .6s ease}
+.lift{transition:transform .5s cubic-bezier(.2,.7,.2,1),box-shadow .5s}.lift:hover{transform:translateY(-4px);box-shadow:0 26px 60px -30px rgba(17,17,17,0.45)!important}
+.lt a:hover{color:inherit}.lt .btn-g:hover{color:#111111!important}
+.lt :focus-visible{outline-color:#80622E}
+.eb{margin:0;display:flex;align-items:center;gap:14px;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:#80622E}
+.ru{width:40px;height:1px;background:currentColor;display:inline-block;flex-shrink:0;opacity:.75}
+.hd{margin:0;font-family:'Marcellus',Georgia,serif;font-weight:400;font-size:clamp(26px,2.5vw,34px);line-height:1.15;letter-spacing:-.005em}
+.hd em{font-style:normal;color:#80622E}
+.cd{background:#FFFFFF;border-radius:6px;box-shadow:0 14px 40px -28px rgba(17,17,17,0.3)}
+.va{display:inline-flex;align-items:center;gap:12px;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:#111111}
+.ci{width:34px;height:34px;border-radius:50%;border:1px solid #DDD6C8;display:inline-flex;align-items:center;justify-content:center;transition:background .25s,border-color .25s}
+.va:hover .ci{background:#C9A86A;border-color:#C9A86A}
+.hs{scrollbar-width:thin;scrollbar-color:#C9A86A transparent}
+.hv{animation:hv 1.6s ease both}@keyframes hv{from{opacity:0}to{opacity:1}}
+.sc{animation:sc 2.4s cubic-bezier(.6,0,.2,1) infinite}@keyframes sc{0%{transform:translateY(-16px)}100%{transform:translateY(44px)}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+.pr{font-family:'Jost',system-ui,sans-serif;font-weight:600;letter-spacing:.01em;font-variant-numeric:lining-nums tabular-nums}
+.pw{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.pl{font-family:'Jost',system-ui,sans-serif;font-size:11px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:#80622E}
+.pv{font-family:'Marcellus',Georgia,serif;font-size:23px;line-height:1.1;color:#111111;letter-spacing:.01em;font-variant-numeric:lining-nums tabular-nums}
+</style>
+</helmet>
+<div style="font-family: 'Jost', system-ui, sans-serif; color: #FFFFFF; background: #0A0A0A; overflow-x: clip">
+
+  <!-- HERO = scroll walk-through: the menu sits over the film, scrolling flies into the residence -->
+  <dc-import name="TourHero" hint-size="100%,22072px"></dc-import>
+
+  <div class="lt" style="position: relative; z-index: 4; display: flow-root; margin-top: -44px; background: radial-gradient(70% 22% at 100% 20%, rgba(201,168,106,0.11), rgba(201,168,106,0) 70%), radial-gradient(60% 20% at 0% 56%, rgba(201,168,106,0.09), rgba(201,168,106,0) 70%), #F7F4EE; color: #111111; border-radius: clamp(20px, 3vw, 40px); box-shadow: 0 -1px 0 rgba(201,168,106,0.45), 0 -28px 70px -24px rgba(0,0,0,0.6)">
+
+  <!-- SEARCH -->
+  <section aria-label="Property search" style="position: relative; z-index: 4; padding: 0 clamp(16px, 4vw, 56px)">
+    <div class="fu d3" style="max-width: 1240px; margin: -56px auto 0; background: #FFFFFF; border-radius: 6px; box-shadow: 0 30px 70px -30px rgba(17,17,17,0.35); padding: 8px 8px 8px">
+      <div role="tablist" aria-label="Search mode" style="display: flex; gap: 6px; padding: 10px 14px 4px">
+        <button type="button" role="tab" aria-selected="{{isBuy}}" onClick="{{setBuy}}" style="background: transparent; border: 0; border-bottom: 2px solid {{buyRule}}; color: {{buyColor}}; padding: 8px 10px; font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; cursor: pointer; min-height: 40px">Find a home</button>
+        <button type="button" role="tab" aria-selected="{{isSell}}" onClick="{{setSell}}" style="background: transparent; border: 0; border-bottom: 2px solid {{sellRule}}; color: {{sellColor}}; padding: 8px 10px; font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; cursor: pointer; min-height: 40px">Value my home</button>
+      </div>
+      <sc-if value="{{isBuy}}" hint-placeholder-val="{{ true }}">
+        <form role="search" aria-label="Property search" style="display: flex; flex-wrap: wrap; align-items: stretch; gap: 4px">
+          <sc-for list="{{sfields}}" as="q" hint-placeholder-count="4">
+            <label style="flex: {{q.flex}}; display: flex; gap: 14px; align-items: center; padding: 14px 18px; border-right: 1px solid #EFEAE0; min-width: 0">
+              <span aria-hidden="true" style="width: 38px; height: 38px; border-radius: 50%; background: #F7F4EE; color: #80622E; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-6.5-6.2-6.5-11A6.5 6.5 0 0 1 18.5 10c0 4.8-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg></span>
+              <span style="display: flex; flex-direction: column; gap: 3px; min-width: 0; flex: 1">
+                <span style="font-size: 11.5px; letter-spacing: 0.2em; text-transform: uppercase; color: #6B665E">{{q.label}}</span>
+                <select style="background: transparent; border: 0; color: #111111; font-size: 15px; padding: 2px 0; width: 100%"><sc-for list="{{q.opts}}" as="o" hint-placeholder-count="3"><option>{{o}}</option></sc-for></select>
+              </span>
+            </label>
+          </sc-for>
+          <a href="Properties.dc.html" class="btn-g" style="flex: 0 1 200px; background: #C9A86A; color: #111111; display: flex; align-items: center; justify-content: center; gap: 10px; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; font-weight: 500; min-height: 66px; border-radius: 4px; margin: 4px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="M20 20l-4.2-4.2"></path></svg>Search</a>
+        </form>
+      </sc-if>
+      <sc-if value="{{isSell}}" hint-placeholder-val="{{ false }}">
+        <form aria-label="Start a home valuation" style="display: flex; flex-wrap: wrap; align-items: stretch; gap: 4px">
+          <label style="flex: 1 1 360px; display: flex; flex-direction: column; gap: 3px; padding: 14px 18px">
+            <span style="font-size: 11.5px; letter-spacing: 0.2em; text-transform: uppercase; color: #6B665E">Property address</span>
+            <input type="text" autocomplete="street-address" placeholder="Street address, city, ZIP" style="background: transparent; border: 0; color: #111111; font-size: 15.5px; padding: 2px 0">
+          </label>
+          <a href="Sell.dc.html" class="btn-g" style="flex: 0 1 240px; background: #C9A86A; color: #111111; display: flex; align-items: center; justify-content: center; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; font-weight: 500; min-height: 66px; border-radius: 4px; margin: 4px">Request valuation</a>
+        </form>
+      </sc-if>
+    </div>
+  </section>
+
+  <div style="display: flex; flex-direction: column; gap: clamp(56px, 6vw, 88px); padding-top: clamp(56px, 6vw, 88px)">
+
+  <!-- FEATURED -->
+  <section aria-labelledby="feat-h" style="padding: 0 clamp(20px, 4vw, 56px)">
+    <div style="max-width: 1240px; margin: 0 auto; display: flex; flex-direction: column; gap: 28px">
+      <div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; align-items: center">
+        <h2 id="feat-h" class="hd">Featured <em>properties</em></h2>
+        <a href="Properties.dc.html" class="va">View all properties <span class="ci" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(270px, 100%), 1fr)); gap: 22px">
+        <sc-for list="{{feat}}" as="l" hint-placeholder-count="4">
+          <article class="zh lift" style="background: #FFFFFF; border-radius: 6px; overflow: hidden; box-shadow: 0 14px 40px -28px rgba(17,17,17,0.35); display: flex; flex-direction: column">
+            <div style="position: relative; aspect-ratio: 4 / 3; overflow: hidden; background: #E9E3D7">
+              <a href="Listing.dc.html" aria-label="View {{l.name}}"><img class="zm" src="{{l.img}}" alt="{{l.alt}}" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; display: block"></a>
+              <span style="position: absolute; top: 14px; left: 14px; background: #C9A86A; color: #111111; font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; padding: 6px 10px; font-weight: 500; border-radius: 2px">{{l.status}}</span>
+              <button type="button" aria-label="Save {{l.name}}" aria-pressed="{{l.saved}}" onClick="{{l.toggle}}" style="position: absolute; top: 10px; right: 10px; width: 40px; height: 40px; border-radius: 50%; border: 0; background: rgba(255,255,255,0.94); display: flex; align-items: center; justify-content: center; cursor: pointer">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="{{l.fill}}" stroke="{{l.stroke}}" stroke-width="1.6" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"></path></svg>
+              </button>
+            </div>
+            <div style="padding: 18px 20px 20px; display: flex; flex-direction: column; gap: 10px; flex: 1">
+              <div style="display: flex; justify-content: space-between; gap: 12px; align-items: baseline">
+                <h3 style="margin: 0; font-family: 'Marcellus', Georgia, serif; font-weight: 400; font-size: 21px; line-height: 1.2"><a href="Listing.dc.html" style="color: #111111">{{l.name}}</a></h3>
+              </div>
+              <p style="margin: 0; font-size: 13.5px; color: #6B665E; display: flex; gap: 6px; align-items: center"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-6.5-6.2-6.5-11A6.5 6.5 0 0 1 18.5 10c0 4.8-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg>{{l.city}}</p>
+              <div class="pw" style="margin-top: 4px"><span class="pl">Offered at</span><span class="pv">{{l.price}}</span></div>
+              <div style="margin-top: auto; border-top: 1px solid #EFEAE0; padding-top: 12px; display: flex; gap: 16px; font-size: 12.5px; color: #333333">
+                <span>{{l.beds}} Beds</span><span style="color: #D6CEBF">|</span><span>{{l.baths}} Baths</span><span style="color: #D6CEBF">|</span><span>{{l.sqft}} sq ft</span>
+              </div>
+            </div>
+          </article>
+        </sc-for>
+      </div>
+      <p style="margin: 0; font-size: 11.5px; color: #6B665E">Sample listings for design review. Live listings will come from the approved CRMLS/IDX feed with required attribution.</p>
+    </div>
+  </section>
+
+
+  <!-- PRIVATE COLLECTION TEASER -->
+  <section id="private" aria-labelledby="pc-h" style="padding: 0 clamp(20px, 4vw, 56px)">
+    <div style="max-width: 1240px; margin: 0 auto; position: relative; border-radius: 6px; overflow: hidden; background: #111111; color: #FFFFFF; min-height: 340px; display: flex; align-items: flex-end">
+      <img src="./assets/fc87d2bab901fc1cc4d65513b40b54c3.jpg" alt="" aria-hidden="true" loading="lazy" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.55">
+      <div aria-hidden="true" style="position: absolute; inset: 0; background: linear-gradient(90deg, rgba(10,10,10,0.92) 0%, rgba(10,10,10,0.55) 50%, rgba(10,10,10,0.15) 100%)"></div>
+      <div style="position: relative; padding: clamp(28px, 4vw, 56px); display: flex; flex-wrap: wrap; gap: 24px 48px; align-items: flex-end; justify-content: space-between; width: 100%">
+        <div style="display: flex; flex-direction: column; gap: 14px; max-width: 560px">
+          <p style="margin: 0; display: inline-flex; align-items: center; gap: 10px; font-size: 11.5px; letter-spacing: 0.3em; text-transform: uppercase; color: #C9A86A"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg>The Private Collection</p>
+          <h2 id="pc-h" style="margin: 0; font-family: 'Marcellus', Georgia, serif; font-weight: 400; font-size: clamp(28px, 3vw, 40px); line-height: 1.15">Off-market and coming-soon homes, shared privately.</h2>
+          <p style="margin: 0; font-size: 15.5px; line-height: 1.65; color: #E6E1D8">Some of our finest homes are never publicly advertised. Register once to view the collection and receive new additions first.</p>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 10px; align-items: flex-start">
+          <a href="Properties.dc.html" class="btn-g" style="background: #C9A86A; color: #111111; padding: 0 24px; min-height: 52px; display: inline-flex; align-items: center; gap: 10px; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; font-weight: 500; border-radius: 3px">Request access <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+          <span style="font-size: 12px; color: #A39E94">[N] homes currently in the collection</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM + STATS -->
+  <section aria-labelledby="adv-h" style="padding: 0 clamp(20px, 4vw, 56px)">
+    <div style="max-width: 1240px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 22px">
+      <div style="flex: 1 1 520px; background: #FFFFFF; border-radius: 6px; box-shadow: 0 14px 40px -28px rgba(17,17,17,0.3); display: flex; flex-wrap: wrap; overflow: hidden">
+        <div aria-hidden="true" style="flex: 1 1 220px; min-height: 260px; background: linear-gradient(160deg, #2A2A2A, #111111); position: relative; display: flex; align-items: flex-end; padding: 14px">
+          <img src="./assets/4721fd79459c1da4beb8857c5a60eb98.png" alt="" style="position: absolute; left: 50%; top: 44%; transform: translate(-50%, -50%); width: 30%; opacity: 0.4">
+          <span style="position: relative; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #A39E94">[Team photo — Oge to supply]</span>
+        </div>
+        <div style="flex: 1 1 280px; padding: 28px 30px; display: flex; flex-direction: column; gap: 10px; justify-content: center">
+          <p class="eb">Meet the team</p>
+          <h2 id="adv-h" style="margin: 0; font-family: 'Marcellus', Georgia, serif; font-weight: 400; font-size: 30px; line-height: 1.15">One team behind <em style="color: #80622E">every client.</em></h2>
+          <p style="margin: 4px 0 0; font-size: 14.5px; line-height: 1.65; color: #333333">At Optimal Realty Group, strategy, marketing and negotiation sit under one roof. Every engagement begins with a written plan — pricing, timing and positioning grounded in current market data.</p>
+          <a href="About.dc.html" class="btn-g" style="align-self: flex-start; margin-top: 8px; background: #C9A86A; color: #111111; padding: 0 20px; min-height: 44px; display: inline-flex; align-items: center; gap: 10px; font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 500; border-radius: 3px">Meet our team <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+        </div>
+      </div>
+      <sc-if value="{{showStats}}" hint-placeholder-val="{{ true }}">
+      <div style="flex: 1 1 440px; background: #FFFFFF; border-radius: 6px; box-shadow: 0 14px 40px -28px rgba(17,17,17,0.3); padding: 28px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(120px, 100%), 1fr)); gap: 12px; align-content: center">
+        <sc-for list="{{stats}}" as="s" hint-placeholder-count="3">
+          <div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 10px; padding: 12px 6px">
+            <span aria-hidden="true" style="width: 44px; height: 44px; border-radius: 50%; border: 1px solid #E6DCC6; color: #80622E; display: inline-flex; align-items: center; justify-content: center; font-family: 'Marcellus', Georgia, serif; font-style: normal; font-size: 15px">{{s.i}}</span>
+            <span style="font-family: 'Marcellus', Georgia, serif; font-size: 30px; line-height: 1">{{s.v}}</span>
+            <span style="font-size: 11.5px; letter-spacing: 0.1em; text-transform: uppercase; color: #6B665E">{{s.k}}</span>
+          </div>
+        </sc-for>
+        <p style="grid-column: 1 / -1; margin: 4px 0 0; text-align: center; font-size: 11.5px; color: #6B665E">[Oge to supply] · this block is hidden at launch unless every figure is confirmed.</p>
+      </div>
+      </sc-if>
+    </div>
+  </section>
+
+
+  <!-- SERVICES -->
+  <section aria-labelledby="svc-h" style="padding: 0 clamp(20px, 4vw, 56px)">
+    <div style="max-width: 1240px; margin: 0 auto; display: flex; flex-direction: column; gap: 36px">
+      <div style="display: flex; flex-direction: column; gap: 10px">
+        <h2 id="svc-h" class="hd">One team for <em>every move</em></h2>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 22px">
+        <sc-for list="{{svcs}}" as="v" hint-placeholder-count="3">
+          <a href="{{v.href}}" class="zh lift" style="background: #FFFFFF; border-radius: 6px; overflow: hidden; box-shadow: 0 14px 40px -28px rgba(17,17,17,0.3); color: #111111; display: flex; flex-direction: column">
+            <span style="display: block; aspect-ratio: 16 / 10; overflow: hidden; background: #E9E3D7"><img class="zm" src="{{v.img}}" alt="" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; display: block"></span>
+            <span style="padding: 22px 24px 24px; display: flex; flex-direction: column; gap: 8px">
+              <span style="font-size: 11px; letter-spacing: 0.26em; text-transform: uppercase; color: #80622E">{{v.k}}</span>
+              <span style="font-family: 'Marcellus', Georgia, serif; font-size: 23px; line-height: 1.2">{{v.t}}</span>
+              <span style="font-size: 14.5px; line-height: 1.6; color: #5E5E5E">{{v.d}}</span>
+              <span style="margin-top: 8px; font-size: 11.5px; letter-spacing: 0.2em; text-transform: uppercase; display: inline-flex; gap: 10px; align-items: center">{{v.cta}} <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span>
+            </span>
+          </a>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- NEIGHBORHOODS + MAP -->
+  <section aria-labelledby="nb-h" style="padding: 0 clamp(20px, 4vw, 56px)">
+    <div style="max-width: 1240px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 28px 32px; align-items: stretch">
+      <div style="flex: 0 1 220px; display: flex; flex-direction: column; gap: 14px; justify-content: center">
+        <h2 id="nb-h" class="hd">Explore prime <em>neighborhoods</em></h2>
+        <p style="margin: 0; font-size: 14.5px; line-height: 1.6; color: #5E5E5E">Eleven luxury enclaves across Los Angeles and Orange County.</p>
+        <a href="Communities.dc.html" class="va" style="margin-top: 4px">View all areas <span class="ci" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a>
+      </div>
+      <div role="list" class="hs" style="flex: 1 1 480px; min-width: 0; display: flex; gap: 14px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 10px">
+        <sc-for list="{{hoods}}" as="h" hint-placeholder-count="5">
+          <a role="listitem" href="Communities.dc.html" class="zh" style="flex: 0 0 176px; scroll-snap-align: start; color: #111111; display: flex; flex-direction: column; gap: 12px">
+            <span style="display: block; aspect-ratio: 4 / 5; border-radius: 6px; overflow: hidden; background: #E9E3D7"><img class="zm" src="{{h.img}}" alt="{{h.alt}}" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; display: block"></span>
+            <span style="display: flex; justify-content: space-between; align-items: center; gap: 10px">
+              <span style="display: flex; flex-direction: column; gap: 2px"><span style="font-family: 'Marcellus', Georgia, serif; font-size: 17px">{{h.name}}</span><span style="font-size: 12px; color: #6B665E">{{h.county}}</span></span>
+              <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: #C9A86A; color: #111111; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span>
+            </span>
+          </a>
+        </sc-for>
+      </div>
+      <div style="flex: 0 1 300px; min-width: 260px; background: #EFE9DD; border-radius: 6px; padding: 22px; display: flex; flex-direction: column; gap: 10px">
+        <h3 style="margin: 0; font-family: 'Marcellus', Georgia, serif; font-weight: 400; font-size: 20px; line-height: 1.2">Find your <em style="font-style: normal; color: #80622E">perfect location</em></h3>
+        <svg viewBox="0 0 280 190" role="img" aria-label="Map of Los Angeles and Orange County with eight community pins" style="width: 100%; height: auto; display: block; flex: 1">
+          <path d="M0 0H92C104 28 88 52 100 78C112 104 98 128 120 150C132 164 150 176 170 190H0Z" fill="#DCE4E7"></path>
+          <path d="M92 0C104 28 88 52 100 78C112 104 98 128 120 150C132 164 150 176 170 190" fill="none" stroke="#C9C2B1" stroke-width="1.2"></path>
+          <path d="M120 20L270 54M112 86L274 96M132 146L268 150M170 6L186 188M226 4L238 188" stroke="rgba(17,17,17,0.1)" stroke-width="1" fill="none"></path>
+          <g fill="#C9A86A" stroke="#FFFFFF" stroke-width="2"><circle cx="190" cy="44" r="6"></circle><circle cx="130" cy="64" r="6"></circle><circle cx="214" cy="76" r="6"></circle><circle cx="116" cy="92" r="6"></circle><circle cx="168" cy="102" r="6"></circle><circle cx="150" cy="128" r="6"></circle><circle cx="130" cy="150" r="6"></circle><circle cx="224" cy="150" r="6"></circle><circle cx="104" cy="40" r="6"></circle><circle cx="246" cy="168" r="6"></circle><circle cx="142" cy="38" r="6"></circle></g>
+        </svg>
+        <span style="font-size: 12.5px; color: #6B665E">11 luxury communities · LA &amp; Orange County</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENTS + VALUATION -->
+  <section aria-label="Client experiences and home valuation" style="padding: 0 clamp(20px, 4vw, 56px)">
+    <div style="max-width: 1240px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 22px; align-items: stretch">
+      <div style="margin: 0; flex: 1 1 460px; background: #FFFFFF; border-radius: 6px; box-shadow: 0 14px 40px -28px rgba(17,17,17,0.3); padding: clamp(24px, 3vw, 36px); display: flex; flex-direction: column; gap: 18px">
+        <div style="display: flex; flex-wrap: wrap; gap: 12px 20px; justify-content: space-between; align-items: flex-end">
+          <h2 id="t-h" class="hd">What our <em>clients say</em></h2>
+          <span style="font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: #6B665E">Live from Google Reviews</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 16px; padding: 14px 16px; background: #F7F4EE; border-radius: 6px">
+          <span style="font-family: 'Marcellus', Georgia, serif; font-size: 40px; line-height: 1">[4.9]</span>
+          <span style="display: flex; flex-direction: column; gap: 4px"><span aria-label="Rated [4.9] out of 5" style="display: inline-flex; gap: 2px"><svg width="16" height="16" viewBox="0 0 24 24" fill="#C9A86A" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#C9A86A" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#C9A86A" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#C9A86A" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#C9A86A" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"></path></svg></span><span style="font-size: 13px; color: #333333">Based on [###] Google reviews</span></span>
+        </div>
+        <sc-for list="{{reviews}}" as="r" hint-placeholder-count="2">
+          <figure style="margin: 0; display: flex; flex-direction: column; gap: 8px; border-top: 1px solid #EFEAE0; padding-top: 14px">
+            <figcaption style="display: flex; align-items: center; gap: 10px"><span aria-hidden="true" style="width: 32px; height: 32px; border-radius: 50%; background: #111111; color: #C9A86A; display: inline-flex; align-items: center; justify-content: center; font-family: 'Marcellus', Georgia, serif; font-size: 14px">{{r.i}}</span><span style="display: flex; flex-direction: column"><span style="font-size: 14px; font-weight: 500">{{r.who}}</span><span style="font-size: 12px; color: #6B665E">{{r.when}}</span></span><span style="margin-left: auto; display: inline-flex; gap: 1px"><svg width="12" height="12" viewBox="0 0 24 24" fill="#C9A86A" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"></path></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#C9A86A" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"></path></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#C9A86A" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"></path></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#C9A86A" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"></path></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#C9A86A" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"></path></svg></span></figcaption>
+            <blockquote style="margin: 0; font-size: 14.5px; line-height: 1.6; color: #333333">{{r.text}}</blockquote>
+          </figure>
+        </sc-for>
+        <a href="#" class="va" style="margin-top: auto">Read all reviews on Google <span class="ci" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a>
+      </div>
+      <div id="valuation" class="cd" style="flex: 1.35 1 520px; overflow: hidden; display: flex; flex-wrap: wrap">
+        <div style="flex: 1 1 230px; min-height: 260px; position: relative; background: #E9E3D7">
+          <img src="./assets/0e20df64c313c82878d6c44b9a493414.jpg" alt="" aria-hidden="true" loading="lazy" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover">
+        </div>
+        <div style="flex: 1 1 280px; padding: clamp(24px, 3vw, 36px); display: flex; flex-direction: column; gap: 14px; justify-content: center">
+          <h2 id="val-h" class="hd">What is your home <em>worth today?</em></h2>
+          <p style="margin: 0; font-size: 14.5px; line-height: 1.6; color: #5E5E5E">A personal assessment prepared by our team — not an automated estimate.</p>
+          <a href="Sell.dc.html" class="btn-g" style="align-self: flex-start; background: #C9A86A; color: #111111; padding: 0 22px; min-height: 46px; display: inline-flex; align-items: center; gap: 10px; font-size: 11.5px; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 500; border-radius: 3px">Request a valuation <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+          <div style="display: flex; flex-wrap: wrap; gap: 8px 22px; padding-top: 14px; border-top: 1px solid #EFEAE0; font-size: 12.5px; color: #333333">
+            <span style="display: inline-flex; align-items: center; gap: 8px"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#80622E" stroke-width="1.8" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Comparable sales</span>
+            <span style="display: inline-flex; align-items: center; gap: 8px"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#80622E" stroke-width="1.8" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Pricing strategy</span>
+            <span style="display: inline-flex; align-items: center; gap: 8px"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#80622E" stroke-width="1.8" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Walk-through of the numbers</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SELECTED SALES (admin-managed; 3 or 4 cards, one row) -->
+  <section aria-labelledby="sales-h" style="padding: 0 clamp(20px, 4vw, 56px)">
+    <div style="max-width: 1240px; margin: 0 auto; display: flex; flex-direction: column; gap: 28px">
+      <div style="display: flex; flex-wrap: wrap; gap: 12px 24px; justify-content: space-between; align-items: flex-end">
+        <h2 id="sales-h" class="hd" style="margin: 0; font-family: 'Marcellus', Georgia, serif; font-weight: 400; font-size: clamp(26px, 2.5vw, 34px); line-height: 1.15">Selected <em>sales</em></h2>
+        <span style="font-size: 12.5px; color: #6B665E">Luxury sales represented by Optimal Realty Group</span>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 22px">
+        <sc-for list="{{sales}}" as="x" hint-placeholder-count="4">
+          <article class="zh" style="background: #FFFFFF; border-radius: 6px; overflow: hidden; box-shadow: 0 14px 40px -28px rgba(17,17,17,0.3); display: flex; flex-direction: column">
+            <div style="position: relative; aspect-ratio: 4 / 5; overflow: hidden; background: #E9E3D7">
+              <img class="zm" src="{{x.img}}" alt="{{x.alt}}" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; display: block">
+              <span style="position: absolute; top: 12px; left: 12px; background: #111111; color: #C9A86A; font-size: 11px; letter-spacing: 0.24em; text-transform: uppercase; padding: 6px 10px; border-radius: 2px">Sold</span>
+            </div>
+            <div style="padding: 18px 20px 20px; display: flex; flex-direction: column; gap: 8px">
+              <span style="font-family: 'Marcellus', Georgia, serif; font-size: 21px; line-height: 1.2">{{x.area}}</span>
+              <span style="font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: #80622E; font-weight: 500">{{x.side}} · {{x.price}}</span>
+              <span style="font-size: 14px; line-height: 1.55; color: #333333; border-top: 1px solid #EFEAE0; padding-top: 10px">{{x.line}}</span>
+            </div>
+          </article>
+        </sc-for>
+      </div>
+      <p style="margin: 0; font-size: 12px; color: #6B665E">Cards are managed in the admin. [Oge to supply the four sales and their one-line results.]</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section aria-labelledby="faq-h" style="padding: 0 clamp(20px, 4vw, 56px)">
+    <div style="max-width: 1240px; margin: 0 auto; display: flex; flex-direction: column; gap: 28px">
+      <div style="text-align: center; display: flex; flex-direction: column; gap: 10px; align-items: center">
+        <h2 id="faq-h" class="hd">Frequently asked <em>questions</em></h2>
+        <a href="Contact.dc.html" class="va" style="font-size: 11px">Ask our team <span class="ci" aria-hidden="true" style="width: 28px; height: 28px"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(460px, 100%), 1fr)); gap: 12px 22px; align-items: start">
+        <sc-for list="{{faqs}}" as="q" hint-placeholder-count="4">
+          <div style="background: #FFFFFF; border-radius: 6px; border: 1px solid #EFEAE0">
+            <button type="button" aria-expanded="{{q.open}}" onClick="{{q.toggle}}" style="width: 100%; display: flex; justify-content: space-between; align-items: center; gap: 16px; background: transparent; border: 0; padding: 18px 20px; text-align: left; font-size: 15px; color: #111111; cursor: pointer; min-height: 60px">{{q.q}}<span aria-hidden="true" style="font-size: 20px; color: #80622E; line-height: 1; flex-shrink: 0">{{q.sign}}</span></button>
+            <sc-if value="{{q.open}}" hint-placeholder-val="{{ false }}"><p class="fi" style="margin: 0; padding: 0 20px 20px; font-size: 14.5px; line-height: 1.65; color: #5E5E5E">{{q.a}}</p></sc-if>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND — straddles the sheet and the footer -->
+  <section id="book" aria-labelledby="cta-h" style="position: relative; z-index: 3; padding: 0 clamp(20px, 4vw, 56px); margin-top: -24px">
+    <div style="max-width: 1240px; margin: 0 auto; transform: translateY(64px); border-radius: 6px; background: linear-gradient(100deg, #B8955A, #C9A86A 45%, #D8BD88); box-shadow: 0 30px 70px -30px rgba(17,17,17,0.55); color: #111111; padding: clamp(32px, 4vw, 52px) clamp(24px, 4vw, 56px); display: flex; flex-wrap: wrap; gap: 24px; justify-content: space-between; align-items: center">
+      <div style="display: flex; flex-direction: column; gap: 8px">
+        <h2 id="cta-h" style="margin: 0; font-family: 'Marcellus', Georgia, serif; font-weight: 400; font-size: clamp(26px, 2.6vw, 36px)">Ready to plan your next move?</h2>
+        <p style="margin: 0; font-size: 15px; color: #2A2418">Thirty focused minutes with our team — by phone, video or in person.</p>
+      </div>
+      <div style="display: flex; gap: 12px; flex-wrap: wrap; align-items: center">
+        <a href="Contact.dc.html" style="background: #111111; color: #FFFFFF; padding: 0 26px; min-height: 52px; display: inline-flex; align-items: center; gap: 10px; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; border-radius: 3px">Book a consultation <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+        <a href="tel:+10000000000" style="color: #111111; font-size: 15px; padding: 0 8px; min-height: 52px; display: inline-flex; align-items: center; text-decoration: underline; text-underline-offset: 4px">[Phone number]</a>
+      </div>
+    </div>
+  </section>
+
+  </div>
+  </div>
+
+  <div aria-hidden="true" style="height: 104px; background: #0A0A0A"></div>
+
+  <dc-import name="Footer" hint-size="100%,760px"></dc-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":27191}}'>
+class Component extends DCLogic {
+  constructor(p) {
+    super(p);
+    const rm = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    this._sw = false;
+    if (typeof window !== 'undefined') {
+      if (window.__orgHeroT) clearInterval(window.__orgHeroT);
+      setTimeout(() => this.bindFilm(), 300);
+      if (rm) setTimeout(() => { const v = document.getElementById('film-0'); if (v) v.pause(); this.setState({ filmPaused: true }); }, 400);
+    }
+    this.state = {
+      tab: 'buy', saved: {}, hood: 0, q: 0, scene: 0, prog: 0, faq: 0, filmPaused: false, small: typeof window !== 'undefined' && window.innerWidth < 900,
+      val: { address: '', name: '', email: '', phone: '' }, valErr: {}, valTried: false, valConsent: false, valDone: false,
+      bt: 'Buying', bd: null, bs: null, bf: { name: '', email: '', phone: '' }, bErr: {}, bDone: false
+    };
+  }
+  film(i) { return typeof document !== 'undefined' ? document.getElementById('film-' + i) : null; }
+  // Native media events drive the hero film: timeupdate for progress and the early crossfade, ended as the fallback.
+  bindFilm() {
+    [0, 1].forEach((i) => {
+      const v = this.film(i); if (!v || v.__org) return; v.__org = true;
+      v.addEventListener('timeupdate', () => this.onTime(i));
+      v.addEventListener('ended', () => { if (this.state.scene === i) this.go(1 - i); });
+    });
+  }
+  onTime(i) {
+    const st = this.state; if (st.scene !== i || this._sw) return;
+    const v = this.film(i); const d = v && v.duration; if (!d || !isFinite(d)) return;
+    const pr = Math.min(1, v.currentTime / d);
+    if (Math.abs(pr - st.prog) > 0.008) this.setState({ prog: pr });
+    if (v.currentTime > d - 1.6) this.go(1 - i);
+  }
+  go(k) {
+    const cur = this.state.scene; if (k === cur || this._sw) return;
+    const o = this.film(cur), n = this.film(k); this._sw = true;
+    this.bindFilm();
+    if (n) { n.currentTime = 0; if (!this.state.filmPaused) { const p = n.play(); if (p && p.catch) p.catch(() => {}); } }
+    this.setState({ scene: k, prog: 0 });
+    setTimeout(() => { if (o) { o.pause(); o.currentTime = 0; } this._sw = false; }, 1700);
+  }
+  validate(spec, vals) {
+    const e = {};
+    spec.forEach((s) => {
+      const v = (vals[s.k] || '').trim();
+      if (!v) e[s.k] = s.label.replace(/ \(.*\)/, '') + ' is required.';
+      else if (s.type === 'email' && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)) e[s.k] = 'Enter a valid email, like name@example.com.';
+      else if (s.type === 'tel' && v.replace(/\D/g, '').length < 10) e[s.k] = 'Enter a 10-digit phone number.';
+    });
+    return e;
+  }
+  fields(spec, vals, errs, key, ekey, dark) {
+    return spec.map((s) => ({
+      ...s, value: vals[s.k], invalid: !!errs[s.k], err: errs[s.k] || '',
+      bc: errs[s.k] ? (dark ? '#F2A49A' : '#A3302A') : (dark ? 'rgba(255,255,255,0.3)' : '#BDB6A8'),
+      onChange: (ev) => {
+        const nv = { ...this.state[key], [s.k]: ev.target.value };
+        const ne = { ...this.state[ekey] }; delete ne[s.k];
+        this.setState({ [key]: nv, [ekey]: ne });
+      }
+    }));
+  }
+  renderVals() {
+    const st = this.state;
+    const L = [
+      { id: 'skyline', name: 'Skyline Residence', address: '[Street address]', city: 'Hollywood Hills, Los Angeles', price: '$8,950,000', beds: 5, baths: 6, sqft: '6,420', status: 'For sale', img: './assets/2995d9cead6fc677fd08e7a535dd18d2.jpg', alt: 'Modern residence at dusk with a reflecting pool' },
+      { id: 'tidewater', name: 'Tidewater House', address: '[Street address]', city: 'Santa Monica', price: '$6,250,000', beds: 4, baths: 5, sqft: '4,180', status: 'For sale', img: './assets/b3c6dc0c7ad10118760198aa70ee4dd1.jpg', alt: 'White modern home overlooking the ocean' },
+      { id: 'courtyard', name: 'Courtyard Villa', address: '[Street address]', city: 'West Hollywood', price: '$4,395,000', beds: 3, baths: 4, sqft: '3,610', status: 'New listing', img: './assets/0e20df64c313c82878d6c44b9a493414.jpg', alt: 'Courtyard pool and lounge seen from above' },
+      { id: 'canyon', name: 'Canyon Terrace', address: '[Street address]', city: 'Beverly Hills', price: '$12,400,000', beds: 6, baths: 8, sqft: '8,900', status: 'Coming soon', img: './assets/91bcf664c0d5676a03914aab569a3874.jpg', alt: 'Covered patio and pool among palms' }
+    ];
+    const card = (l) => {
+      const sv = !!st.saved[l.id];
+      return { ...l, saved: sv, fill: sv ? '#C9A86A' : 'none', stroke: sv ? '#C9A86A' : '#111111', toggle: () => this.setState({ saved: { ...st.saved, [l.id]: !sv } }) };
+    };
+    const H = [
+      { name: 'Beverly Hills', county: 'LA County', img: './assets/91bcf664c0d5676a03914aab569a3874.jpg' },
+      { name: 'Bel Air', county: 'LA County', img: './assets/fc87d2bab901fc1cc4d65513b40b54c3.jpg' },
+      { name: 'Holmby Hills', county: 'LA County', img: './assets/07557ce51117515217c519d04b7454e7.jpg' },
+      { name: 'Hollywood Hills', county: 'LA County', img: './assets/2995d9cead6fc677fd08e7a535dd18d2.jpg' },
+      { name: 'Malibu', county: 'LA County', img: './assets/b3c6dc0c7ad10118760198aa70ee4dd1.jpg' },
+      { name: 'Pacific Palisades', county: 'LA County', img: './assets/ebf0bb82bc01b97343d20224b78ff665.jpg' },
+      { name: 'Brentwood', county: 'LA County', img: './assets/e6669febd35b35ce2d13caf2b666951f.jpg' },
+      { name: 'Santa Monica', county: 'LA County', img: './assets/6301f6b46bae48c78a06d17095398918.jpg' },
+      { name: 'Manhattan Beach', county: 'LA County', img: './assets/8c8502d53cf931a92b2c22bda56c2fcc.jpg' },
+      { name: 'Newport Coast', county: 'Orange County', img: './assets/0e20df64c313c82878d6c44b9a493414.jpg' },
+      { name: 'Laguna Beach', county: 'Orange County', img: './assets/1d628c6c47daa31c903f57299402e3ed.jpg' }
+    ];
+    const hoods = H.map((h, i) => ({ ...h, alt: h.name + '', op: i === st.hood ? 1 : 0, color: i === st.hood ? '#C9A86A' : '#FFFFFF', pad: i === st.hood ? '14px' : '0px', pick: () => this.setState({ hood: i }) }));
+    const Q = [
+      { text: '[Approved client testimonial — a two- to three-sentence account of working with Optimal Realty Group.]', who: '[Client name] · [Neighborhood] · [Buyer / Seller]' },
+      { text: '[Approved client testimonial — focus on strategy, communication or the result achieved.]', who: '[Client name] · [Neighborhood] · [Buyer / Seller]' },
+      { text: '[Approved client testimonial — supplied by the client with permission to publish.]', who: '[Client name] · [Neighborhood] · [Investor]' }
+    ];
+    const vspec = [
+      { k: 'address', label: 'Property address', type: 'text', ac: 'street-address', ph: '123 Example Ave, Santa Monica, CA' },
+      { k: 'name', label: 'Full name', type: 'text', ac: 'name', ph: '' },
+      { k: 'email', label: 'Email', type: 'email', ac: 'email', ph: '' },
+      { k: 'phone', label: 'Phone', type: 'tel', ac: 'tel', ph: '(310) 555-0100' }
+    ];
+    const bspec = [
+      { k: 'name', label: 'Full name', type: 'text', ac: 'name' },
+      { k: 'email', label: 'Email', type: 'email', ac: 'email' },
+      { k: 'phone', label: 'Phone', type: 'tel', ac: 'tel' }
+    ];
+    // booking days
+    const base = new Date(); base.setHours(12, 0, 0, 0);
+    const DOW = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    const LONGD = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const LONGM = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    const ALL = ['9:30 AM', '11:00 AM', '12:30 PM', '2:00 PM', '3:30 PM', '5:00 PM'];
+    const dayList = [];
+    for (let i = 1; i <= 10; i++) {
+      const d = new Date(base); d.setDate(base.getDate() + i);
+      const sunday = d.getDay() === 0;
+      const full = i === 3; // demonstrates a fully booked day
+      const slots = sunday || full ? [] : ALL.filter((_, j) => (j + i) % 4 !== 0);
+      dayList.push({ i, d, slots, closed: sunday || full });
+    }
+    const sel = dayList.find((x) => x.i === st.bd);
+    const days = dayList.map((x) => {
+      const on = x.i === st.bd;
+      return {
+        dow: DOW[x.d.getDay()], num: x.d.getDate(), mon: x.closed ? 'Full' : MON[x.d.getMonth()], on,
+        aria: LONGD[x.d.getDay()] + ', ' + LONGM[x.d.getMonth()] + ' ' + x.d.getDate() + (x.closed ? ' — no availability' : ''),
+        bg: on ? '#C9A86A' : 'transparent', fg: on ? '#111111' : '#FFFFFF', bd: on ? '#C9A86A' : 'rgba(255,255,255,0.18)', op: x.closed && !on ? 0.5 : 1,
+        pick: () => this.setState({ bd: x.i, bs: null })
+      };
+    });
+    const slots = (sel ? sel.slots : []).map((t) => {
+      const on = st.bs === t;
+      return { t, on, bg: on ? '#C9A86A' : 'transparent', fg: on ? '#111111' : '#FFFFFF', bd: on ? '#C9A86A' : 'rgba(255,255,255,0.18)', pick: () => this.setState({ bs: t }) };
+    });
+    const btypes = ['Buying', 'Selling', 'Investing'].map((t) => {
+      const on = st.bt === t;
+      return { label: t, on, bg: on ? '#FFFFFF' : 'transparent', fg: on ? '#111111' : '#FFFFFF', bd: on ? '#FFFFFF' : 'rgba(255,255,255,0.22)', pick: () => this.setState({ bt: t }) };
+    });
+    const valid = this.validate(vspec, st.val);
+    return {
+      small: st.small, showFilm: !st.small,
+      src0: st.small ? './assets/e5ed58e9ff5ad6e9ff6bfdca6a360a75.mp4' : './assets/3815656cf5eb7124c8f3445becd4ef6d.mp4',
+      src1: st.small ? './assets/4aa2dabc5200f43ee255d7820381762d.mp4' : './assets/5beba0908c47eec17bcd498f574e84e1.mp4',
+      op0: st.scene === 0 ? 1 : 0, op1: st.scene === 1 ? 1 : 0,
+      sc0: st.scene === 0 ? 1 : 1.06, sc1: st.scene === 1 ? 1 : 1.06,
+      scenes: [['01', 'Waterfront estates', 'Private docks · pools · open water'], ['02', 'Inside the residence', 'Open-plan living · natural light · oak floors']].map(([n, t, d], i) => {
+        const on = st.scene === i;
+        return { n, t, d, cur: on ? 'true' : 'false', label: 'Show film ' + n + ': ' + t, op: on ? 1 : 0.42, w: on ? Math.round(st.prog * 1000) / 10 + '%' : '0%', go: () => this.go(i) };
+      }),
+      curTitle: ['Waterfront estates', 'Inside the residence'][st.scene], filmPaused: st.filmPaused, filmPlaying: !st.filmPaused,
+      filmText: st.filmPaused ? 'Play film' : 'Pause film', filmLabel: st.filmPaused ? 'Play background film' : 'Pause background film',
+      toggleFilm: () => { const v = this.film(st.scene); const p = !st.filmPaused; if (v) { if (p) v.pause(); else { const r = v.play(); if (r && r.catch) r.catch(() => {}); } } this.setState({ filmPaused: p }); },
+      isBuy: st.tab === 'buy', isSell: st.tab === 'sell',
+      setBuy: () => this.setState({ tab: 'buy' }), setSell: () => this.setState({ tab: 'sell' }),
+      buyRule: st.tab === 'buy' ? '#C9A86A' : 'transparent', sellRule: st.tab === 'sell' ? '#C9A86A' : 'transparent',
+      buyColor: st.tab === 'buy' ? '#111111' : '#6B665E', sellColor: st.tab === 'sell' ? '#111111' : '#6B665E',
+      f0: card(L[0]), fside: [card(L[1]), card(L[2])], feat: L.map(card),
+      sfields: [
+        { label: 'Location', flex: '1.6 1 220px', opts: ['All areas', 'Beverly Hills', 'Bel Air', 'Holmby Hills', 'Hollywood Hills', 'Malibu', 'Pacific Palisades', 'Brentwood', 'Santa Monica', 'Manhattan Beach', 'Newport Coast', 'Laguna Beach'] },
+        { label: 'Property type', flex: '1 1 170px', opts: ['Any type', 'Estate', 'Single-family', 'Penthouse / Condo', 'Land'] },
+        { label: 'Price range', flex: '1 1 170px', opts: ['Any price', '$3M – $5M', '$5M – $10M', '$10M – $20M', '$20M +'] },
+        { label: 'Bedrooms', flex: '0.8 1 140px', opts: ['Any', '2+', '3+', '4+', '5+'] }
+      ],
+      showStats: true, stats: [{ i: '$', v: '[$—M]', k: 'Sales volume' }, { i: 'a', v: '[$—M]', k: 'Average sale price' }, { i: 'h', v: '[—]', k: 'Homes sold' }],
+      reviews: [{ i: 'A', who: '[Reviewer name]', when: '[Date] · Google', text: '[Live Google review text — pulled automatically by the reviews widget.]' }, { i: 'M', who: '[Reviewer name]', when: '[Date] · Google', text: '[Live Google review text.]' }],
+      sales: [
+        { area: 'Bel Air', side: 'Represented seller', price: '[$X.XM]', line: '[One-line result — e.g. “Sold off-market in 9 days”]', img: './assets/fc87d2bab901fc1cc4d65513b40b54c3.jpg', alt: 'Hillside estate at dusk' },
+        { area: 'Malibu', side: 'Represented buyer', price: '[$X.XM]', line: '[One-line result]', img: './assets/b3c6dc0c7ad10118760198aa70ee4dd1.jpg', alt: 'White modern home above the ocean' },
+        { area: 'Beverly Hills', side: 'Represented seller', price: '[$X.XM]', line: '[One-line result]', img: './assets/91bcf664c0d5676a03914aab569a3874.jpg', alt: 'Covered patio and pool among palms' },
+        { area: 'Newport Coast', side: 'Represented seller', price: '[$X.XM]', line: '[One-line result]', img: './assets/e6669febd35b35ce2d13caf2b666951f.jpg', alt: 'Modern home with pool' }
+      ],
+      svcs: [
+        { k: 'For buyers', t: 'Find the home that fits your life', d: 'Private previews, off-market access and a discreet, clear negotiation plan.', cta: 'Buyer services', href: 'Buy.dc.html', img: './assets/f55952dd08a3abd1e1aed349d1a8c236.jpg' },
+        { k: 'For sellers', t: 'Bring your home to market at its best', d: 'Strategic pricing, editorial marketing and steady guidance to close.', cta: 'Seller services', href: 'Sell.dc.html', img: './assets/e6669febd35b35ce2d13caf2b666951f.jpg' },
+        { k: 'For investors', t: 'Build wealth through property', d: 'Income property, second homes and 1031 exchanges for long-term portfolio growth.', cta: 'Investor services', href: 'Investments.dc.html', img: './assets/a1d9110345598ad1452abbab1eab26d4.jpg' }
+      ],
+      faqs: [
+        ['How is your home valuation prepared?', 'A team member reviews recent comparable sales, current competition and your home’s features, then walks you through the numbers personally. It is not an automated estimate.'],
+        ['Can I sell my home privately?', 'Yes. For sellers who value discretion we offer off-market and private sales, presented only to qualified, registered buyers.'],
+        ['Which areas do you serve?', 'Beverly Hills, Bel Air, Holmby Hills, Hollywood Hills, Malibu, Pacific Palisades, Brentwood, Santa Monica, Manhattan Beach, Newport Coast and Laguna Beach.'],
+        ['Do you work with investors?', 'Yes. Our Invest team helps clients build long-term wealth through income property, second homes and 1031 exchanges.']
+      ].map(([q, a], i) => ({ q, a, open: st.faq === i, sign: st.faq === i ? '−' : '+', toggle: () => this.setState({ faq: st.faq === i ? null : i }) })),
+      hoods, hood: H[st.hood],
+      sold: [
+        { city: 'Beverly Hills', img: './assets/e6669febd35b35ce2d13caf2b666951f.jpg', alt: 'Sold home' },
+        { city: 'Santa Monica', img: './assets/b3c6dc0c7ad10118760198aa70ee4dd1.jpg', alt: 'Sold home' },
+        { city: 'West Hollywood', img: './assets/0e20df64c313c82878d6c44b9a493414.jpg', alt: 'Sold home' },
+        { city: 'Long Beach', img: './assets/6301f6b46bae48c78a06d17095398918.jpg', alt: 'Sold home' }
+      ],
+      quote: Q[st.q], qPos: (st.q + 1) + ' / ' + Q.length,
+      prevQ: () => this.setState({ q: (st.q + Q.length - 1) % Q.length }),
+      nextQ: () => this.setState({ q: (st.q + 1) % Q.length }),
+      vfields: this.fields(vspec, st.val, st.valErr, 'val', 'valErr', false),
+      valConsent: st.valConsent, toggleConsent: () => this.setState({ valConsent: !st.valConsent }),
+      valDone: st.valDone, valOpen: !st.valDone,
+      valFirst: (st.val.name || '').trim().split(' ')[0], valAddr: st.val.address,
+      valSubmit: () => { const e = this.validate(vspec, st.val); if (Object.keys(e).length) this.setState({ valErr: e }); else this.setState({ valDone: true }); },
+      valReset: () => this.setState({ valDone: false, val: { address: '', name: '', email: '', phone: '' }, valErr: {} }),
+      btypes, days, slots,
+      noDate: !sel, noSlots: !!sel && sel.slots.length === 0, hasSlots: !!sel && sel.slots.length > 0,
+      showDetails: !!sel && !!st.bs,
+      bfields: this.fields(bspec, st.bf, st.bErr, 'bf', 'bErr', true),
+      bType: st.bt, bSlot: st.bs || '',
+      bDateLong: sel ? LONGD[sel.d.getDay()] + ', ' + LONGM[sel.d.getMonth()] + ' ' + sel.d.getDate() : '',
+      bDateShort: sel ? DOW[sel.d.getDay()] + ' ' + MON[sel.d.getMonth()] + ' ' + sel.d.getDate() : '',
+      bDone: st.bDone, bOpen: !st.bDone,
+      bSubmit: () => { const e = this.validate(bspec, st.bf); if (Object.keys(e).length) this.setState({ bErr: e }); else this.setState({ bDone: true }); },
+      bReset: () => this.setState({ bDone: false, bd: null, bs: null })
+    };
+  }
+}
+</script>
+</body>
+</html>
